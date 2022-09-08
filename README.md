@@ -1,2 +1,2 @@
 # founders-and-coders-colour-palette
-a colour palette picker app
+A colour palette picker app

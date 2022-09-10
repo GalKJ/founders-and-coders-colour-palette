@@ -38,8 +38,20 @@ body {
     background-color: #b9b8b8;
 }
     
-    
-    h1 {
-    margin-top: var(--header-margin-top);
-    
+h1 {
+    margin-top: var(--header-margin-top);   
+}
+
+#random_colour_section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.random_colour_article {
+    flex-grow: 1;
+}
+
+.colour {
+    height: 50vh;
+    width: 20px;
 }

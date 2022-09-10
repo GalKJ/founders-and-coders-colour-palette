@@ -1,3 +1,45 @@
-h1 {
-    color: blue ;
+:root {
+    
+    /* Custom Properties */
+    /* Typography variables */
+        --letter-spacing: 0.1rem;
+        --fs: 1rem;
+        --font-fam: "Jost";
+        --paragraph-fs: 1.1rem;
+
+     /* Font weight variables */
+        --fw1: 100;
+        --fw2: 200;
+        --fw3: 300;
+
+    /* Font effect variables  */
+        --text-shad: 0 0 10px #91ff65, 2px 2px 1px rgb(0, 221, 255);
+
+    /* Layout variables */
+        --max-width: 90%;
+        --section-height: 100vh;
+        --header-margin-top: 2rem;
+        }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+        
+body {
+    font-family: var(--font-fam);
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+#section_one {
+    min-height: var(--section-height);
+    background-color: #b9b8b8;
+}
+    
+    
+    h1 {
+    margin-top: var(--header-margin-top);
+    
 }

@@ -1,2 +1,6 @@
 // Select elements
-const header = document.querySelector(h1);
+
+
+// Function to create random hex value
+
+console.log('rabbitz');

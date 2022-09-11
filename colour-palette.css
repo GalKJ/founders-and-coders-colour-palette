@@ -12,9 +12,6 @@
         --fw2: 200;
         --fw3: 300;
 
-    /* Font effect variables  */
-        --text-shad: 0 0 10px #91ff65, 2px 2px 1px rgb(0, 221, 255);
-
     /* Layout variables */
         --max-width: 90%;
         --section-height: 100vh;
@@ -57,11 +54,12 @@ h1 {
 }
 
 .hex_id {
-    
+    /* empty ruleset */
 }
 
 .colour {
     height: 10vh;
     width: 80%;
+    border-radius: 2%;
 
 }

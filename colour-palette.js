@@ -7,21 +7,25 @@ const hexValueGeneratorButton = document.querySelector('#hexValueGeneratorButton
 // Function to create random hex value
 
 function hexValueGenerator() { 
-    colour.forEach(element => {
-        const hexValue = Math.floor(Math.random()*16777215).toString(16);
-    element.style.background = "#" + hexValue;
-    });
 
-    hexId.forEach(element => {
+    for (let i = 0; i < colour.length; i++) {
+        
         const hexValue = Math.floor(Math.random()*16777215).toString(16);
-    element.innerHTML = "#" + hexValue;
-    });
-    
+
+        colour[i].style.background = `#${hexValue}`;
+
+        hexId[i].innerHTML = `#${hexValue}`;
+        
+    }  
 }
+
+        console.log(hexValue);
+
 
 // Event listeners
 
 hexValueGeneratorButton.addEventListener('click', hexValueGenerator);
+
 
 // Run hex value generator function on page load
 

@@ -18,7 +18,7 @@
     /* Layout variables */
         --max-width: 90%;
         --section-height: 100vh;
-        --header-margin-top: 2rem;
+        --margin-top: 2rem;
         }
 
 * {
@@ -39,19 +39,29 @@ body {
 }
     
 h1 {
-    margin-top: var(--header-margin-top);   
+    margin-top: var(--margin-top);   
 }
 
 #random_colour_section {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 .random_colour_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-grow: 1;
+    margin-top: var(--margin-top);
+}
+
+.hex_id {
+    
 }
 
 .colour {
-    height: 50vh;
-    width: 20px;
+    height: 10vh;
+    width: 80%;
+
 }

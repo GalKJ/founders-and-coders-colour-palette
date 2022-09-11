@@ -22,3 +22,7 @@ function hexValueGenerator() {
 // Event listeners
 
 hexValueGeneratorButton.addEventListener('click', hexValueGenerator);
+
+// Run hex value generator function on page launch
+
+hexValueGenerator();

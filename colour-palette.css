@@ -32,7 +32,6 @@ body {
 
 #section_one {
     min-height: var(--section-height);
-    
 }
     
 h1 {
@@ -58,6 +57,10 @@ h1 {
 }
 
 .colour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 10vh;
     width: 80%;
     border-radius: 2%;

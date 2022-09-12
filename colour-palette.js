@@ -28,3 +28,4 @@ hexValueGeneratorButton.addEventListener('click', hexValueGenerator);
 // Run hex value generator function on page load
 
 hexValueGenerator();
+

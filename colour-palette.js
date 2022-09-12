@@ -19,8 +19,6 @@ function hexValueGenerator() {
     }  
 }
 
-        console.log(hexValue);
-
 
 // Event listeners
 

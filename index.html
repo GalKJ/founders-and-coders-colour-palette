@@ -27,40 +27,42 @@
         <article class="random_colour_article">
           <div class="colour">
             <p class="hex_id">#1234</p>
-            <button class="lock_button">
+            <button class="lock_toggle_button">
+              <i class="fa-solid fa-lock-open" data-action="unlocked"></i>
+            </button>
+          </div>
+        </article>
+
+        <article class="random_colour_article">
+          <div class="colour" data-action="unlocked">
+            <p class="hex_id">#1234</p>
+            <button class="lock_toggle_button">
               <i class="fa-solid fa-lock-open"></i>
             </button>
           </div>
         </article>
 
         <article class="random_colour_article">
-          <div class="colour">
+          <div class="colour" data-action="unlocked">
             <p class="hex_id">#1234</p>
-            <button class="lock_button">
+            <button class="lock_toggle_button">
               <i class="fa-solid fa-lock-open"></i>
             </button>
           </div>
         </article>
 
         <article class="random_colour_article">
-          <div class="colour">
+          <div class="colour" data-action="unlocked">
             <p class="hex_id">#1234</p>
-            <button class="lock_button">
-              <i class="fa-solid fa-lock-open"></i>
-            </button>
-          </div>
-        </article>
-
-        <article class="random_colour_article">
-          <div class="colour">
-            <p class="hex_id">#1234</p>
-            <button class="lock_button">
+            <button class="lock_toggle_button">
               <i class="fa-solid fa-lock-open"></i>
             </button>
           </div>
         </article>
       </section>
     </section>
+
+    <p id="hi" data-greet="hello">Hi!</p>
 
     <script src="colour-palette.js"></script>
   </body>
